@@ -1,0 +1,112 @@
+/* utilities */
+
+.pl-13{
+	padding-left: 13%;
+}
+
+.pr-13{
+	padding-right: 13%;
+}
+.pb-2{
+	padding-bottom: 2%;
+}
+ .pb-3{
+ 	padding-bottom: 3%;
+ }
+
+ .pb-4{
+ 	padding-bottom: 4%;
+ }
+
+.pb-5{
+	padding-bottom: 5%;
+}
+
+.pb-7{
+	padding-bottom: 7%;
+}
+
+.pt-5{
+	padding-top: 5%;
+}
+
+.pt-3{
+	padding-top: 3%;
+}
+.c-b{
+	color: black !important;
+}
+ 
+.c-w{
+	color: white !important;
+} 
+ .pb-8{
+ 	padding-bottom: 8%;
+ }
+
+ .pt-8{
+ 	padding-top: 8%;
+ }
+
+ .rbg{
+ background-color:rgb(144, 126, 120);	
+ }
+
+.p-4{
+padding: 4%;
+}
+
+.p-3{
+	padding: 3%;
+}
+
+.mt-7{
+	margin-top: 7px;
+}
+.pv-3-0{
+	padding-top:3% ;
+	padding-bottom:3%;
+}
+.pd-0-15{
+	padding: 0% 15%;
+}
+
+.pd-0-25 {
+	padding: 0% 25%;
+}
+
+.pd-5-0 {
+	padding: 5% 0%;
+}
+
+.pl-20{
+	padding-left: 20%;
+}
+
+.pr-20{
+	padding-right: 20%;
+}
+
+.pd-0-18 {
+	padding: 0% 18%;
+}
+.pd-0-10{
+	padding: 0% 10%;
+}
+.pl-2{
+	padding-left: 2%;
+}
+.pt-3-0{
+  padding-top: 3%;
+}
+.mg-0-0{
+	margin: 0
+}
+.mg-2-0 {
+	margin: 2% 0%;
+}
+
+.mg-10-0 {
+	margin: 10% 0%;
+}
+/*final de utilities*

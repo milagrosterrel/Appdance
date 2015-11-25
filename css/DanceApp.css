@@ -1,0 +1,154 @@
+html,body{
+	width: 100%;
+	height: 100%;
+}
+h1,h2,h3,h4,h5,p{
+	font-family:'Josefin Sans'; 
+	color: black;
+}
+
+*{
+	font-family: 'Oswald', sans-serif;
+}
+/*nav*/
+header ul li{
+	text-decoration: none;
+	list-style: none;
+
+}
+header{
+	position: fixed;
+	width: 100%;
+	background-color:;
+	z-index: 100;
+}
+
+#menu .container ul{
+	padding-top: 1%;
+}
+/*.navbar-header{
+color:  white;
+}*/
+
+#menu.active {
+  background-color: #239393;
+  padding-bottom: 21px;
+  webkit-transform: translateY(0);
+-moz-transform: translateY(0);
+-ms-transform: translateY(0);
+-o-transform: translateY(0);
+transform: translateY(0);
+-webkit-transition: all 0.2s ease-in-out;
+-moz-transition: all 0.2s ease-in-out;
+transition: all 0.2s ease-in-out;
+-webkit-transform: translateZ(0);
+}
+.navbar-default .navbar-toggle {
+	border-color: white;
+}
+.navbar-default{
+	background-color: transparent;
+}
+/*.navbar ul li:hover{
+	background-color: #93CFCF;
+	border-radius: 5px;
+}*/
+.navbar-default h1{
+	color:white;
+}
+.navbar-default a:hover{
+	text-decoration: none;
+}
+.DanceApp h2{
+	color: white;
+}
+
+.row {
+	margin-right: 0px;
+}
+.Home-bg{
+	background-color: ;
+	border-radius: 5px;
+}
+/*cierre de nav*/
+.cover{
+	background: url('../img/baile_6.jpg');
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+}
+.cover .opacity{
+	background-color: rgba(0, 0, 0, 0.5);
+	height: 100%;
+	width: 100%;
+}
+.box{
+	padding-top: 2%;
+	padding-left: 20%;
+	padding-right: 20%;
+}
+.descarga{
+	width: 100%;
+}
+
+.appstore{
+	border-radius: 7%;
+}
+
+.cover_text{
+	padding-top: 20%;	
+	padding-left:10%;
+	padding-right:10%;
+	margin: 0%;
+}
+
+.hero-img{
+	background: url(../img/confectiona.png);
+	width: 100%;
+	height: 100%;
+}
+
+.quees_img{
+	width: 87%;
+	height: 212px;
+
+}
+
+#quees h4{
+	color: black;
+}
+#funciona h3{
+	padding-top: 2%;
+	padding-bottom: 2%;
+	margin: 0%;
+}
+
+.video{
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+	overflow: hidden;
+}
+
+.video iframe, .video object, .video embed{
+position: absolute;
+top:0; left: 0;
+width: 100%;
+
+}
+
+
+
+footer{
+	padding-top: 1%;
+	padding-bottom: 1%;
+	background-color: #93CFCF;
+	text-align: center;
+}
+
+/*formulario.html*/
+
+.contact{
+	text-align: center;
+	padding-top: 10%;
+}
