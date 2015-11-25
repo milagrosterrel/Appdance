@@ -124,22 +124,10 @@ transition: all 0.2s ease-in-out;
 }
 
 .video{
-	position: relative;
-	padding-bottom: 56.25%;
-	height: 0;
-	overflow: hidden;
+	padding: 5%;
 }
-
-.video iframe, .video object, .video embed{
-position: absolute;
-top:0; left: 0;
-width: 100%;
-
-}
-
-
-
 footer{
+	width: 100%;
 	padding-top: 1%;
 	padding-bottom: 1%;
 	background-color: #93CFCF;
