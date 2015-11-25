@@ -14,29 +14,40 @@
 
 
 
-
-<div class="">
-    <div class="container">  
+<div class="app text-center">
+   <p>DanceApp</p>
+  <div class="col-xs-6 text-center">
+    <h2>
+        la musica <br>
+         te inpira,<br>
+          es arte
+    </h2>
+  </div>
+    <div class="col-xs-6">
         <div class="row">
-            <div class="contact">
-                <form class="form-login" method="post">
-                   <h2 class="form-login-heading">DanceApp</h2>
-                        <div class="login-wrap">
-                            <input id="icon_prefix" name="name" type="text" class="form-control" placeholder="nombre de su empresa">
-                            <br>
+            <div>
+                <form class="form-horizontal" action="contact.php" method="post">
+                        <div class="form-group">
+                            <input id="icon_prefix" name="name" type="name" class="form-control" placeholder="nombre de su empresa">
+                        </div>
+                        <div class="form-group">
                             <input id="icon_email" name="email" type="email" class="form-control" placeholder="email">
-                            <br>
-                            <input id="icon_prefix2" name="message" class="form-control" placeholder="sitio web">
-                            <br>
+                        </div>
+                        <div class="form-group">
+                            <input  name="message" type="message" class="form-control" placeholder="sitio web">
+                        </div>
+                        <div class="form-group">
                             <button  class="btn btn-theme btn-block"><a href="contact.html">enviar</a> 
                             </button>  
-                        </div>      
+                        </div>
                 </form>
-            </div>
+            </div>  
         </div>
     </div>
 </div>
- 
+
+
+
  <script src="js/main.js"></script>
     <script src="js/jquery.min.js"></script>     
     <script src="js/jquery.js"></script>

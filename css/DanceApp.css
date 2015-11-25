@@ -136,6 +136,10 @@ footer{
 
 /*formulario.html*/
 
+.form-group{
+	width: 100%;
+}
+
 .contact{
 	text-align: center;
 	padding-top: 10%;
@@ -163,9 +167,15 @@ footer{
 }
 
 .login-wrap {
-    padding: 20px;
+    padding: 3px;
 }
 
+.app{
+	background: url('../img/baile_2.jpg');
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+}
 /*contact.html*/
 
 .contact_1{
