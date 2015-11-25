@@ -31,7 +31,7 @@ color:  white;
 }*/
 
 #menu.active {
-  background-color: #239393;
+  background-color: #1FCCCD;
   padding-bottom: 21px;
   webkit-transform: translateY(0);
 -moz-transform: translateY(0);
@@ -60,6 +60,9 @@ transition: all 0.2s ease-in-out;
 	text-decoration: none;
 }
 .DanceApp h2{
+	color: white;
+}
+#DanceApp h3{
 	color: white;
 }
 
@@ -103,14 +106,15 @@ transition: all 0.2s ease-in-out;
 }
 
 .hero-img{
-	background: url(../img/confectiona.png);
+	background: url(../img/confectionary.png);
 	width: 100%;
 	height: 100%;
 }
 
 .quees_img{
-	width: 87%;
-	height: 212px;
+	width: 50%;	
+	/*width: 87%;
+	height: 212px;*/
 
 }
 
