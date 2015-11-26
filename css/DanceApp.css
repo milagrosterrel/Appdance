@@ -128,6 +128,15 @@ transition: all 0.2s ease-in-out;
 .video{
 	padding: 5%;
 }
+
+.asociados_img{
+width: 50%;
+   border-radius: 90%;
+   border: 3px solid black;
+   padding: 2%;
+   text-align: center;
+}
+
 footer{
 	width: 100%;
 	padding-top: 1%;
