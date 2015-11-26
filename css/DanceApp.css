@@ -270,4 +270,25 @@ form>a:hover {
 .contact_1{
    padding:2%;
 }
+/*asociados*/
+#asociados{
+  background: url(http://www.photoshopbuzz.com/wp-content/uploads/2012/07/cork.jpg);
+  height: 100%;
+}
+.container_1 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 900px;
+}
 
+.photo {
+  transition: 0.2s;
+  width: 200px;
+  height: 190px;
+  padding: 10px 10px 40px 10px;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
+  background: #fff;
+  position: relative;
+}
