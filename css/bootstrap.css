@@ -4422,7 +4422,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   color: white;
   background-color: transparent;
   border-radius: 0px;
-  border:2px solid white;
+  border:2px dotted white;
 
 }
 .navbar-default .navbar-nav > .active > a,

@@ -23,6 +23,15 @@ header{
 	z-index: 100;
 }
 
+.border_page{
+border: 2px dotted white;
+background-color: orange !important;
+}
+
+.border_page:hover{
+
+}
+
 #menu .container ul{
 	padding-top: 1%;
 }
@@ -44,7 +53,7 @@ transition: all 0.2s ease-in-out;
 -webkit-transform: translateZ(0);
 }
 .navbar-default .navbar-toggle {
-	border-color: white;
+	border: 2px dotted white;
 }
 .navbar-default{
 	background-color: transparent;
@@ -132,7 +141,7 @@ transition: all 0.2s ease-in-out;
 .asociados_img{
 width: 50%;
    border-radius: 90%;
-   border: 3px solid black;
+   border: 3px dotted black;
    padding: 2%;
    text-align: center;
 }
@@ -173,8 +182,8 @@ form>a {
   text-align: center;
   display: block;
   margin: 1em auto;
-  padding: 1em 0em;
-  width: 90%;
+  padding: 6px 0em;
+  width: 100%;
   color: #fff;
   text-decoration: none;
   background: #2ecc71;
@@ -182,6 +191,7 @@ form>a {
   text-transform: uppercase;
   transition: 0.5s all;
   font-size: 1.2em;
+  border-radius: 4px;
 }
 
 form>a:hover {
@@ -199,7 +209,7 @@ form>a:hover {
   width: 100%;
   /*margin: 10em auto;*/
   background: rgba(52, 73, 94, 0.8);
-  padding: 4em 0em;
+  padding: 0em 0em;
 }
 /*blog article*/
 
