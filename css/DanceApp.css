@@ -2,14 +2,14 @@ html,body{
 	width: 100%;
 	height: 100%;
 }
-h1,h2,h3,h4,h5,p footer{
-	font-family:'Josefin Sans'; 
+h1,h2,h3,h4,h5,p footer {
+	font-family: 'Josefin Sans', sans-serif;
 	color: black;
 }
 
-*{
+/*{
 	font-family: 'Oswald', sans-serif;
-}
+}*/
 /*nav*/
 header ul li{
 	text-decoration: none;
@@ -135,17 +135,8 @@ transition: all 0.2s ease-in-out;
 }
 
 .video{
-	padding: 15%;
+	padding: 2% 13% 5% 13%;
 }
-/*
-.asociados_img{
-width: 50%;
-   border-radius: 90%;
-   border: 3px dotted black;
-   padding: 2%;
-   text-align: center;
-}
-*/
 
 footer{
 	width: 100%;
@@ -158,6 +149,7 @@ footer{
 footer p{
 	color: white !important;
 }
+
 /*formulario.html*/
 body #holder {
  background: url('../img/baile_2.jpg') no-repeat center center fixed;
@@ -167,8 +159,8 @@ body #holder {
   background-size: cover;
   width: 100%;
   height: 100%;
+  padding: 5%;
 }
-
 form {
   width: 90%;
   margin: 0 auto;
@@ -212,6 +204,13 @@ form>a:hover {
   background: rgba(52, 73, 94, 0.8);
   padding: 0em 0em;
 }
+#holder h1 p{
+  color: white;
+  text-align: left;
+}
+#holder p{
+  color: white;
+}
 /*blog article*/
 
 .aboutlink {
@@ -226,47 +225,6 @@ form>a:hover {
   color: #2ecc71;
   text-decoration: none;
 }
-/*.form-group{
-	width: 100%;
-}
-
-.contact{
-	text-align: center;
-	padding-top: 10%;
-}
-
-.form-login {
-    max-width: 330px;
-    margin: 100px auto 0;
-    background: #fff;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-}
-
-.form-login h2.form-login-heading {
-    margin: 0;
-    padding: 25px 20px;
-    text-align: center;
-    background: #68dff0;
-    border-radius: 5px 5px 0 0;
-    -webkit-border-radius: 5px 5px 0 0;
-    color: #fff;
-    font-size: 20px;
-    text-transform: uppercase;
-    font-weight: 300;
-}
-
-.login-wrap {
-    padding: 3px;
-}
-
-.app{
-	background: url('../img/baile_2.jpg');
-	height: 100%;
-	background-size: cover;
-	background-position: center;
-}
-/*contact.html*/
 
 .contact_1{
    padding:2%;
@@ -277,16 +235,24 @@ form>a:hover {
 body #asociados{
   background: url(http://www.photoshopbuzz.com/wp-content/uploads/2012/07/cork.jpg);
   /*I don't own this image, used for illustration purposes only*/
+  height: 70%;
+  text-align: center;
 }
 
-.container_1 {
+#asociados .con {
   position: absolute;
   left: 50%;
-  top: 50%;
+ /* top: 50%;*/
   transform: translate(-50%, -50%);
   width: 900px;
+  text-align: center;
 }
-
+#asociados h1{
+  color: black;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin: 0;
+}
 .photo {
   transition: 0.2s;
   width: 200px;
