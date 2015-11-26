@@ -8,3 +8,6 @@ $('.navbar-collapse ul li a').click(function() {
 //holder//
 $("#holder").hide();
 $("#holder").fadeIn(2000);
+
+
+
