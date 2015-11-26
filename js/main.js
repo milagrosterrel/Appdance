@@ -5,3 +5,6 @@
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+//holder//
+$("#holder").hide();
+$("#holder").fadeIn(2000);
