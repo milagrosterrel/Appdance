@@ -7,6 +7,7 @@ h1,h2,h3,h4,h5,p footer, p {
 	color: black;
 }
 
+<<<<<<< HEAD
 /*EFECTO DE FADE*/
   
  #page_effect {
@@ -22,6 +23,9 @@ h1,h2,h3,h4,h5,p footer, p {
 } 
 
 
+=======
+/*nav*/
+>>>>>>> f911c44defe8a532bcb5dbda26b55cbf6f1da64e
 header ul li{
 	text-decoration: none;
 	list-style: none;
@@ -283,6 +287,7 @@ body #asociados{
   position: relative;
 }
 
+<<<<<<< HEAD
 #aviso{
   font-family: "Oswald";
   background: url("../img/confectionary.png");
@@ -308,4 +313,38 @@ body #asociados{
   background: orange;
   padding: 2%;
   border-radius: 10px;
+=======
+/*flecha*/
+
+#DanceApp .bounce {
+    bottom: 50px;
+    -webkit-animation: bounce 2s infinite;
+    -o-animation: bounce 2s infinite;
+    animation: bounce 2s infinite;
+}
+
+#DanceApp .arrow {
+    position: relative;
+    bottom: 0;
+    left: 50%;
+    padding-top: 2%;
+    margin-left: -20px;
+    width: 40px;
+    height: 40px;
+    glyphicon glyphicon-triangle-bottom;
+    background-size: contain;
+}
+
+.flecha{
+  background-color:#236A6A;
+  width: 75px;
+  border-radius: 45%;
+  padding: 26%;
+
+}
+
+.flecha .ico{
+  color: white !important;
+  font-size: 33px;
+>>>>>>> f911c44defe8a532bcb5dbda26b55cbf6f1da64e
 }
