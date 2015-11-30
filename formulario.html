@@ -12,7 +12,7 @@
   <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
 </head>
 <body>
-<div id="holder">
+<div id="holder" class="visible-xs hidden-md hidden-sm">
   <div class="col-sm-6">
     <h1 class="text-font">DanceApp</h1>
     <p>Aplicaion guiada para publico en general,<br>
@@ -31,17 +31,14 @@
         <div class="input-group-addon"> <span class="glyphicon glyphicon-user" aria-hidden="true"></span> </div>
         <input type="text" class="c-w form-control input-lg" placeholder="nombre de tu escuela">
       </div>
-
       <div class="input-group">
         <div class="input-group-addon"> <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> </div>
         <input type="text" class="c-w form-control input-lg" placeholder="email">
       </div>
-
       <div class="input-group">
         <div class="input-group-addon"> <span class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span> </div>
         <input type="text" class="c-w form-control input-lg" placeholder="pagina web">
       </div>
-
       <div class="input-group">
         <div class="input-group-addon"> <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> </div>
         <textarea  class="c-w form-control input-lg" placeholder="mensaje" rows="6"></textarea>
@@ -49,7 +46,44 @@
       <a href="contact.html">enviar</a>
     </form>
   </div>
+ </div>
 </div>
+
+<div id="holder_1" class="hidden-xs visible-md visible-sm visible-lg">
+  <div class="col-sm-6">
+    <h1 class="text-font">DanceApp</h1>
+    <p>Aplicaion guiada para publico en general,<br>
+      basada en la información de aquellas escuelas <br></p>
+     <p> que tal ves no son tan conocidas. Funciona gracias<br>
+      al GPS, para poder encontrar alguna escuela cercana. <br></p>
+      <p>DanceApp ha  formado miles de jóvenes,padres e hijos, <br>
+      convirtiéndose en uno de los principales referentes exitosos <br></p>
+      <p>en el uso de las artes, convirtiendole asi como herramienta de <br> 
+      cambio social en nuestro país..</p>
+  </div>
+  <div class="col-sm-6">
+    <form action="contact.php">
+      <h1> <span class="glyphicon glyphicon-comment" aria-hidden="true"></span> Inscribe a tu escuela ya!</h1> 
+      <div class="input-group">
+        <div class="input-group-addon"> <span class="glyphicon glyphicon-user" aria-hidden="true"></span> </div>
+        <input type="text" class="c-w form-control input-lg" placeholder="nombre de tu escuela">
+      </div>
+      <div class="input-group">
+        <div class="input-group-addon"> <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> </div>
+        <input type="text" class="c-w form-control input-lg" placeholder="email">
+      </div>
+      <div class="input-group">
+        <div class="input-group-addon"> <span class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span> </div>
+        <input type="text" class="c-w form-control input-lg" placeholder="pagina web">
+      </div>
+      <div class="input-group">
+        <div class="input-group-addon"> <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> </div>
+        <textarea  class="c-w form-control input-lg" placeholder="mensaje" rows="6"></textarea>
+      </div>
+      <a href="contact.html">enviar</a>
+    </form>
+  </div>
+ </div>
     <script src="js/main.js"></script>
     <script src="js/jquery.min.js"></script>     
     <script src="js/jquery.js"></script>

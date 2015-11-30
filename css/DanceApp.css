@@ -2,10 +2,25 @@ html,body{
 	width: 100%;
 	height: 100%;
 }
-h1,h2,h3,h4,h5,p footer {
-	font-family: 'Josefin Sans', sans-serif;
+h1,h2,h3,h4,h5,p footer, p {
+	font-family: 'Josefin Sans', sans-serif !important;
 	color: black;
 }
+
+/*EFECTO DE FADE*/
+  
+ #page_effect {
+    -webkit-animation: fadein 2.5s; /* Safari and Chrome */
+    -moz-animation: fadein 2.5s; /* Firefox */
+    -ms-animation: fadein 2.5s; /* Internet Explorer */
+    -o-animation: fadein 2.5s; /* Opera */
+    animation: fadein 2.5s;
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+} 
+
 
 /*nav*/
 header ul li{
@@ -37,7 +52,7 @@ color:  white;
 }*/
 
 #menu.active {
-  background-color: #236A6A;
+  background-color: #0ADABF;
   padding-bottom: 21px;
   webkit-transform: translateY(0);
 -moz-transform: translateY(0);
@@ -117,8 +132,16 @@ transition: all 0.2s ease-in-out;
 	height: 212px;*/
 
 }
+#quees{
+  padding: 8%;
+}
 #quees h4{
 	color: black;
+}
+#quees p{
+  font-size: 1.3em;
+  font-family: ""
+
 }
 #funciona h3{
 	padding-top: 2%;
@@ -149,13 +172,23 @@ footer p{
 
 /*formulario.html*/
 body #holder {
- background: url('../img/baile_2.jpg') no-repeat center center fixed;
+ background: url('../img/baile_2.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   width: 100%;
-  height: 100%;
+  height: auto;
+  padding: 5%;
+}
+body #holder_1 {
+ background: url('../img/baile_2.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 50em;
   padding: 5%;
 }
 form {
@@ -232,8 +265,9 @@ form>a:hover {
 body #asociados{
   background: url(http://www.photoshopbuzz.com/wp-content/uploads/2012/07/cork.jpg);
   /*I don't own this image, used for illustration purposes only*/
-  height:70%;
+  height:35em;
   text-align: center;
+  /*background-attachment: fixed;*/
 }
 
 #asociados .con {
@@ -260,36 +294,30 @@ body #asociados{
   position: relative;
 }
 
+#aviso{
+  font-family: "Oswald";
+  background: url("../img/confectionary.png");
+  background-repeat: 10%;
+}
+
+#aviso h1, 
+#aviso h2,
+#aviso h3{
+  color: black;
+  font-family: 'Oswald', sans-serif;
+  margin: 4%;
+}
+.elements img{
+  width: 25.3%;
+  margin: auto;
+  padding: 5%;
+}
+
+.boton{
+  margin: auto;
+  color: black;
+  background: orange;
+  padding: 2%;
+  border-radius: 10px;
+}
 /*flecha*/
-
-#DanceApp .bounce {
-    bottom: 50px;
-    -webkit-animation: bounce 2s infinite;
-    -o-animation: bounce 2s infinite;
-    animation: bounce 2s infinite;
-}
-
-#DanceApp .arrow {
-    position: relative;
-    bottom: 0;
-    left: 50%;
-    padding-top: 2%;
-    margin-left: -20px;
-    width: 40px;
-    height: 40px;
-    glyphicon glyphicon-triangle-bottom;
-    background-size: contain;
-}
-
-.flecha{
-  background-color:#236A6A;
-  width: 75px;
-  border-radius: 45%;
-  padding: 26%;
-
-}
-
-.flecha .ico{
-  color: white !important;
-  font-size: 33px;
-}
